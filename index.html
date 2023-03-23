@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Church Website</title>
+
+    <link href="css/reset.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <link href="css/calend.css" rel="stylesheet" />
+    <link href="css/style.min.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Навесить на хедер бекграунд имедж -->
+    <header class="header" id="header">
+      <nav class="header__navbar">
+        <div class="header__nav-title">
+          <a class="title" href="#">Свято-Троицкий храм г.Улан-Батор</a>
+        </div>
+        <div class="header__nav-logo logo">
+          <a href="#">
+            <img src="images/icons/cross.png" alt="" />
+          </a>
+        </div>
+        <ul class="header__link-list">
+          <li class="header__link"><a href="#">Главная</a></li>
+          <li class="header__link"><a href="#">Новости</a></li>
+          <li class="header__link"><a href="#">Расписание служб</a></li>
+          <li class="header__link">
+            <a href="javascript:void(0);">
+              <svg
+                fill="#EAEAEA"
+                height="32px"
+                width="32px"
+                version="1.1"
+                id="Layer_1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                viewBox="0 0 1792 1792"
+                xml:space="preserve"
+              >
+                <title>fiction</title>
+                <path
+                  d="M1673.9,1363.2L1673.9,1363.2c0,52.3-42.4,94.3-94.3,94.3H212.7c-52.3,0-94.3-42.4-94.3-94.3l0,0
+	c0-52.3,42.4-94.3,94.3-94.3h1366.8C1631.5,1268.5,1673.9,1310.9,1673.9,1363.2z"
+                />
+                <path
+                  d="M1673.9,895.6L1673.9,895.6c0,52.3-42.4,94.3-94.3,94.3H213c-52.3,0-94.3-42.4-94.3-94.3l0,0c0-52.3,42.4-94.3,94.3-94.3
+	h1366.6C1631.5,800.8,1673.9,843.2,1673.9,895.6z"
+                />
+                <path
+                  d="M1673.9,427.9L1673.9,427.9c0,52.3-42.4,94.3-94.3,94.3H212.7c-52.3,0-94.3-42.4-94.3-94.3l0,0c0-52.3,42.4-94.3,94.3-94.3
+	h1366.8C1631.5,333.2,1673.9,375.6,1673.9,427.9z"
+                />
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- После нав установить марджин -->
+
+      <div class="header__link-panel container-wide box-shadow">
+        <h1 class="title--main title">Православие в Монголии</h1>
+        <nav>
+          <ul class="header__link-list">
+            <li class="header__link">
+              <a href="#">Главная</a>
+            </li>
+            <li class="header__link">
+              <a href="#">О Православии</a>
+            </li>
+            <li class="header__link">
+              <a href="#">Православие в Монголии</a>
+            </li>
+            <li class="header__link">
+              <a href="#">Жизнь прихода</a>
+            </li>
+            <li class="header__link">
+              <a href="#">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="intro" id="intro">
+      <div class="container">
+        <div class="intro__inner">
+          <div class="intro__menu-item">
+            <a href="#">
+              <img
+                class="box-shadow"
+                src="images/mateusz-butkiewicz-ZhylWw5PDZg-unsplash.jpg"
+                alt=""
+              />
+            </a>
+            <a href="#">
+              <h3 class="title">Православие для начинающих</h3>
+            </a>
+            <!-- <div class="textbox">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+                eleifend, mauris a tempus scelerisque, ex ligula sagittis metus,
+                n consectetur adipiscing elit. Nulla eleifend, mauris a tempus
+                scelerisque, ex ligula sagittis metus, n
+              </p>
+            </div> -->
+          </div>
+          <div class="intro__menu-item">
+            <a href="#">
+              <img
+                class="box-shadow"
+                src="images/katherine-hanlon-D3ltC9NGe7I-unsplash.jpg"
+                alt=""
+              />
+            </a>
+            <a href="#">
+              <h3 class="title">О Православии</h3>
+            </a>
+            <!-- <div class="textbox">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+                eleifend, mauris a tempus scelerisque, ex ligula sagittis metus,
+                n consectetur adipiscing elit. Nulla eleifend, mauris a tempus
+                scelerisque, ex ligula sagittis metus, n
+              </p>
+            </div> -->
+          </div>
+          <div class="intro__menu-item">
+            <a href="#"
+              ><img
+                class="box-shadow"
+                src="images/dave-herring-jwVhVBN0M9A-unsplash.jpg"
+                alt=""
+            /></a>
+            <a href="#">
+              <h3 class="title">О Тайнствах</h3>
+            </a>
+            <!-- <div class="textbox">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+                eleifend, mauris a tempus scelerisque, ex ligula sagittis metus,
+                n consectetur adipiscing elit. Nulla eleifend, mauris a tempus
+                scelerisque, ex ligula sagittis metus, n
+              </p>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="parish" id="parish">
+      <!-- Навесить на данный класс бэкграунд имедж -->
+      <div class="section-header">
+        <div class="container">
+          <h2 class="title title--section">Жизнь прихода</h2>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="parish__inner">
+          <div class="parish__content-block">
+            <!-- Блок-контент с мини-галереей и ссылками на новости, школу и расписание служб -->
+            <div class="parish__info box-shadow content-item-underlay">
+              <div class="parish__slider-container swiper">
+                <div class="parish__slider-wrapper swiper-wrapper">
+                  <div class="parish__image-item swiper-slide">
+                    <div class="slider-image">
+                      <img src="images/i.webp" alt="" />
+                    </div>
+                  </div>
+                  <div class="parish__image-item swiper-slide">
+                    <div class="slider-image">
+                      <img
+                        src="images/aaron-burden-fgmf2Eyrwm4-unsplash.jpg"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div class="parish__image-item swiper-slide">
+                    <div class="slider-image">
+                      <img
+                        src="images/mateusz-butkiewicz-ZhylWw5PDZg-unsplash.jpg"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div class="parish__image-item swiper-slide">
+                    <div class="slider-image">
+                      <img
+                        src="images/stefania-c-k8j_c0stpt8-unsplash.jpg"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-pagination"></div>
+              </div>
+              <div class="parish__text-content text-content">
+                <div class="textbox">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Nulla eleifend, mauris a tempus scelerisque, ex ligula
+                    sagittis metus, n consectetur adipiscing elit. Nulla
+                    eleifend, mauris a tempus scelerisque, ex ligula sagittis
+                    metus, n
+                  </p>
+                </div>
+                <ul class="parish__info-navigation">
+                  <li>
+                    <a href="#" class="parish__link">Расписание служб</a>
+                  </li>
+                  <li>
+                    <a href="#" class="parish__link">К новостям</a>
+                  </li>
+                  <li>
+                    <a href="#" class="parish__link">Воскресная школа</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <section class="news" id="news">
+              <div
+                class="news__feed-item highlight box-shadow content-item-underlay"
+              >
+                <div class="link-wrapper">
+                  <a href="#">
+                    <img
+                      class="image-rounded"
+                      src="images/tamara-malaniy-n-BM_YXVOY4-unsplash.jpg"
+                      alt=""
+                    />
+                  </a>
+                </div>
+                <div class="news__feed-descr">
+                  <h3 class="title">
+                    Поздравляем наших прихожан с началом Великого Поста
+                  </h3>
+                  <div class="textbox">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Quisquam, voluptate!
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="flex-split flex-reverse">
+                <div class="news__side-nav">
+                  <div
+                    class="link-wrapper box-shadow"
+                    style="background-image: url(images/i.webp)"
+                  >
+                    <div class="textbox">
+                      <a href="#">Расписание богослужений</a>
+                    </div>
+                  </div>
+                  <div
+                    class="link-wrapper box-shadow"
+                    style="
+                      background-image: url(images/aaron-burden-fgmf2Eyrwm4-unsplash.jpg);
+                    "
+                  >
+                    <div class="textbox">
+                      <a href="#">Воскресная школа</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="news__feed">
+                  <ul>
+                    <li
+                      class="news__feed-item box-shadow content-item-underlay"
+                    >
+                      <div class="link-wrapper">
+                        <a href="#">
+                          <img
+                            class="image-rounded"
+                            src="images/tamara-malaniy-n-BM_YXVOY4-unsplash.jpg"
+                            alt=""
+                          />
+                        </a>
+                      </div>
+                      <div class="news__feed-descr">
+                        <h3 class="title">
+                          Поздравляем наших прихожан с началом Великого Поста
+                        </h3>
+                        <div class="textbox">
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Quisquam, voluptate!
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                    <li
+                      class="news__feed-item box-shadow content-item-underlay"
+                    >
+                      <div class="link-wrapper">
+                        <a href="#">
+                          <img
+                            class="image-rounded"
+                            src="images/tamara-malaniy-n-BM_YXVOY4-unsplash.jpg"
+                            alt=""
+                          />
+                        </a>
+                      </div>
+                      <div class="news__feed-descr">
+                        <h3 class="title">
+                          Поздравляем наших прихожан с началом Великого Поста
+                        </h3>
+                        <div class="textbox">
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Quisquam, voluptate!
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                    <li
+                      class="news__feed-item box-shadow content-item-underlay"
+                    >
+                      <div class="link-wrapper">
+                        <a href="#">
+                          <img
+                            class="image-rounded"
+                            src="images/tamara-malaniy-n-BM_YXVOY4-unsplash.jpg"
+                            alt=""
+                          />
+                        </a>
+                      </div>
+                      <div class="news__feed-descr">
+                        <h3 class="title">
+                          Поздравляем наших прихожан с началом Великого Поста
+                        </h3>
+                        <div class="textbox">
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Quisquam, voluptate!
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+            <section class="calend" id="calend">
+              <div class="calend-container">
+                <div class="azbyka-saints"></div>
+                <script>
+                  window.___azcfg = {
+                    api: "https://azbyka.ru/days/widgets",
+                    //css: "https://azbyka.ru/days/css/api.min.css",
+                    image: "1",
+                    prevNextLinks: "1",
+                  };
+                  (function () {
+                    var el = document.createElement("script");
+                    el.type = "text/javascript";
+                    el.async = true;
+                    el.src = "https://azbyka.ru/days/js/api.min.js";
+                    var s = document.getElementsByTagName("script")[0];
+                    s.parentNode.insertBefore(el, s);
+                  })();
+                </script>
+              </div>
+            </section>
+            <section class="faq" id="faq">
+              <h2 class="title title--section">Вопросы и ответы</h2>
+              <ul class="faq__wrapper">
+                <li class="faq__item">
+                  <ul>
+                    <li class="faq__question">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Non a nemo maxime cumque repellendus facere reprehenderit.
+                      Perspiciatis, ipsam nulla. Earum!
+                    </li>
+                    <li class="faq__answer">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Saepe repellendus ipsum incidunt.
+                    </li>
+                  </ul>
+                </li>
+                <li class="faq__item">
+                  <ul>
+                    <li class="faq__question">
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Numquam sequi quis laudantium nihil dolores dicta maxime
+                      ab excepturi. Laboriosam, at.
+                    </li>
+                    <li class="faq__answer">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Saepe repellendus ipsum incidunt.
+                    </li>
+                  </ul>
+                </li>
+                <li class="faq__item">
+                  <ul>
+                    <li class="faq__question">
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Numquam sequi quis laudantium nihil dolores dicta maxime
+                      ab excepturi. Laboriosam, at.
+                    </li>
+                    <li class="faq__answer">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Saepe repellendus ipsum incidunt.
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </section>
+          </div>
+
+          <!-- ---------------------------------------------------- -->
+          <!-- Sidebar -- Копировать этот код на остальные страницы -->
+          <!-- ---------------------------------------------------- -->
+          <aside class="sidebar">
+            <div class="sidebar-sticky">
+              <iframe
+                class="box-shadow"
+                src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fpravoslavie.mn&tabs=timeline%2C%20events&width=295&height=420&small_header=true&adapt_container_width=false&hide_cover=false&show_facepile=false&appId"
+                width="295"
+                height="420"
+                style="border: none; overflow: hidde; margin-bottom: 30px"
+                scrolling="no"
+                frameborder="0"
+                allowfullscreen="true"
+                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+              ></iframe>
+              <div class="sidebar__content content-item-underlay box-shadow">
+                <div class="sidebar__content-title title">Пожертвовать</div>
+                <div class="textblock sidebar__textblock">
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Doloremque ipsum est praesentium numquam molestias qui!
+                  </p>
+                </div>
+                <div class="link-wrapper">
+                  <a class="cta-button" href="#">Подробнее</a>
+                </div>
+              </div>
+              <div class="sidebar__content content-item-underlay box-shadow">
+                <div class="sidebar__content-title title">Расписание служб</div>
+                <div class="textblock sidebar__textblock">
+                  <ul class="sidebar__schedule">
+                    <li class="sidebar__schedule-item">
+                      <!-- display:inline -->
+                      <span class="sidebar__schedule-date">Суббота, 17:00</span>
+                      <!-- :after content: '—' -->
+                      <span class="sidebar__schedule-subject"
+                        >Всенощное бдение</span
+                      >
+                    </li>
+                    <li class="sidebar__schedule-item">
+                      <span class="sidebar__schedule-date"
+                        >Воскресенье, 9:00</span
+                      >
+                      <span class="sidebar__schedule-subject"
+                        >Божественная Литургия</span
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <div class="link-wrapper">
+                  <a href="#">Подробнее</a>
+                </div>
+              </div>
+              <div
+                class="sidebar__content content-item-underlay box-shadow sidebar__tags"
+              >
+                <div class="sidebar__content-title title">Разделы</div>
+                <div class="textblock sidebar__textblock">
+                  <ul>
+                    <li class="sidebar__tag"><a href="#">О Православии</a></li>
+                    <li class="sidebar__tag"><a href="#">Новости</a></li>
+                    <li class="sidebar__tag"><a href="#">Службы</a></li>
+                    <li class="sidebar__tag"><a href="#">Анонсы</a></li>
+                  </ul>
+                </div>
+                <div class="link-wrapper">
+                  <a class="cta-button" href="#">Контакты</a>
+                </div>
+              </div>
+            </div>
+          </aside>
+          <!-- ---------------------------------------------------- -->
+          <!-- Sidebar -- конец фрагмента -->
+          <!-- ---------------------------------------------------- -->
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer container-wide" id="footer">
+      <div class="link-wrapper">
+        <a href="#">
+          <img src="images/icons/cross.png" alt="" />
+        </a>
+      </div>
+
+      <ul class="footer__nav">
+        <li class="footer__nav-item"><a href="#">Главная</a></li>
+        <li class="footer__nav-item"><a href="#">О Православии</a></li>
+        <li class="footer__nav-item"><a href="#">Православие в Монголии</a></li>
+        <li class="footer__nav-item"><a href="#">Жизнь прихода</a></li>
+        <li class="footer__nav-item"><a href="#">Контакты</a></li>
+      </ul>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="js/main.min.js"></script>
+  </body>
+</html>

@@ -11,57 +11,111 @@
   </head>
   <body>
     <header class="header" id="header">
-      <nav class="header__navbar">
-        <div class="header__nav-title">
-          <a class="title" href="#">Свято-Троицкий храм г.Улан-Батор</a>
+      <nav class="header__navbar box-shadow">
+        <div class="container-wide">
+          <div class="header__navbar-inner">
+            <div class="header__meta-title-wrapper">
+              <div class="header__nav-logo logo-wrapper">
+                <a href="#">
+                  <img
+                    class="logo-img"
+                    src="images/icons/logo-ipsum3.svg"
+                    alt="parish logo image"
+                  />
+                </a>
+              </div>
+              <div class="header__nav-title">
+                <a class="title" href="#">Свято-Троицкий храм г.Улан-Батор</a>
+              </div>
+            </div>
+            <ul class="header__link-menu">
+              <li class="header__link"><a href="#">Главная</a></li>
+              <li class="header__link"><a href="#">Новости</a></li>
+              <li class="header__link"><a href="#">Расписание служб</a></li>
+              <li class="header__link btn-sidenav-toggle">
+                <a href="javascript:void(0);">
+                  <i class="fa-solid fa-bars fa-2x"></i>
+                </a>
+              </li>
+            </ul>
+
+            <!-- Боковая навигационная панель -->
+            <div class="header__sidenav content-item-underlay box-shadow">
+              <nav class="header__sidenav-menu list__margin ver">
+                <div class="header__sidenav-title title">Меню</div>
+                <ul>
+                  <li class="header__sidenav-menu-item">
+                    <a href="#">Главная</a>
+                  </li>
+                  <li class="header__sidenav-menu-item">
+                    <a href="#">Новости</a>
+                  </li>
+                  <li class="header__sidenav-menu-item">
+                    <a href="#">Расписание служб</a>
+                  </li>
+                  <li class="header__sidenav-menu-item">
+                    <a href="#">О Православии</a>
+                  </li>
+                  <li class="header__sidenav-menu-item">
+                    <a href="#">Жизнь прихода</a>
+                  </li>
+                  <li class="header__sidenav-menu-item">
+                    <a href="#">Контакты</a>
+                  </li>
+                  <li class="header__sidenav-menu-item">
+                    <a href="#">Заказать записку</a>
+                  </li>
+                </ul>
+              </nav>
+              <div class="header__socials">
+                <div class="link-wrapper">
+                  <a class="hover-icon" href="https://facebook.com"
+                    ><i class="fa-brands fa-facebook fa-2x hover-popup"></i
+                  ></a>
+                </div>
+                <div class="link-wrapper">
+                  <a class="hover-icon" href="#"
+                    ><i class="fa-brands fa-vk fa-2x hover-popup"></i
+                  ></a>
+                </div>
+                <div class="link-wrapper">
+                  <a class="hover-icon" href="#"
+                    ><i class="fa-solid fa-envelope fa-2x hover-popup"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="header__contacts">
+                <div class="header__contacts-item">
+                  <div class="header__contacts-title title">Наш адрес</div>
+                  <div class="header__contacts-descr">
+                    Mongolia, Ulaanbaatar - 51, P.O.B. - 236, Bayanzurkh
+                    District, Zhukova, 55 - a
+                  </div>
+                </div>
+                <div class="header__contacts-item">
+                  <div class="header__contacts-title title">Телефон</div>
+                  <div class="header__contacts-descr">
+                    <a href="tel:+97612345678">+976-12345678</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="header__nav-logo logo">
-          <a href="#">
-            <img src="images/icons/cross.png" alt="" />
-          </a>
-        </div>
-        <ul class="header__link-list">
-          <li class="header__link"><a href="#">Главная</a></li>
-          <li class="header__link"><a href="#">Новости</a></li>
-          <li class="header__link"><a href="#">Расписание служб</a></li>
-          <li class="header__link">
-            <a href="javascript:void(0);">
-              <svg
-                fill="#EAEAEA"
-                height="32px"
-                width="32px"
-                version="1.1"
-                id="Layer_1"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-                viewBox="0 0 1792 1792"
-                xml:space="preserve"
-              >
-                <title>fiction</title>
-                <path
-                  d="M1673.9,1363.2L1673.9,1363.2c0,52.3-42.4,94.3-94.3,94.3H212.7c-52.3,0-94.3-42.4-94.3-94.3l0,0
-          c0-52.3,42.4-94.3,94.3-94.3h1366.8C1631.5,1268.5,1673.9,1310.9,1673.9,1363.2z"
-                />
-                <path
-                  d="M1673.9,895.6L1673.9,895.6c0,52.3-42.4,94.3-94.3,94.3H213c-52.3,0-94.3-42.4-94.3-94.3l0,0c0-52.3,42.4-94.3,94.3-94.3
-          h1366.6C1631.5,800.8,1673.9,843.2,1673.9,895.6z"
-                />
-                <path
-                  d="M1673.9,427.9L1673.9,427.9c0,52.3-42.4,94.3-94.3,94.3H212.7c-52.3,0-94.3-42.4-94.3-94.3l0,0c0-52.3,42.4-94.3,94.3-94.3
-          h1366.8C1631.5,333.2,1673.9,375.6,1673.9,427.9z"
-                />
-              </svg>
-            </a>
-          </li>
-        </ul>
       </nav>
+
+      <img
+        class="header__banner"
+        src="images/katherine-hanlon-D3ltC9NGe7I-unsplash.jpg"
+        alt=""
+      />
 
       <!-- После нав установить марджин -->
 
       <div class="header__link-panel container-wide box-shadow">
-        <h1 class="title--main title">Жизнь приходв (архив новостей)</h1>
+        <h1 class="title--main title">Православие в Монголии</h1>
         <nav>
-          <ul class="header__link-list">
+          <ul class="header__link-menu">
             <li class="header__link">
               <a href="#">Главная</a>
             </li>
@@ -87,19 +141,63 @@
     </section>
 
     <footer class="footer container-wide" id="footer">
-      <div class="link-wrapper">
+      <div class="logo-wrapper link-wrapper">
         <a href="#">
-          <img src="images/icons/cross.png" alt="" />
+          <img src="images/icons/logo-ipsum3-white.svg" alt="" />
         </a>
       </div>
 
-      <ul class="footer__nav">
-        <li class="footer__nav-item"><a href="#">Главная</a></li>
-        <li class="footer__nav-item"><a href="#">О Православии</a></li>
-        <li class="footer__nav-item"><a href="#">Православие в Монголии</a></li>
-        <li class="footer__nav-item"><a href="#">Жизнь прихода</a></li>
-        <li class="footer__nav-item"><a href="#">Контакты</a></li>
-      </ul>
+      <div class="footer__nav-block">
+        <div>
+          <div class="title">Меню</div>
+          <ul class="footer__nav list__margin ver">
+            <li class="footer__nav-item"><a href="#">Главная</a></li>
+            <li class="footer__nav-item"><a href="#">О Православии</a></li>
+            <li class="footer__nav-item">
+              <a href="#">Православие в Монголии</a>
+            </li>
+            <li class="footer__nav-item"><a href="#">Жизнь прихода</a></li>
+            <li class="footer__nav-item"><a href="#">Контакты</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="title">Контакты</div>
+          <ul class="list__margin ver">
+            <li class="footer__nav-item footer__address">
+              <i class="fa-solid fa-location-dot fa-2x"></i> Mongolia,
+              Ulaanbaatar - 51, P.O.B. - 236, Bayanzurkh District, Zhukova, 55 -
+              a
+            </li>
+            <li class="footer__nav-item footer__phone">
+              <i class="fa-solid fa-phone fa-2x"></i
+              ><a href="tel:+97612345678"> +976-12345678</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__socials">
+          <div class="link-wrapper">
+            <a class="hover-icon" href="#">
+              <i class="fa-brands fa-facebook fa-2x hover-popup"></i>
+            </a>
+          </div>
+          <div class="link-wrapper">
+            <a class="hover-icon" href="#">
+              <i class="fa-brands fa-vk fa-2x hover-popup"></i>
+            </a>
+          </div>
+          <div class="link-wrapper">
+            <a class="hover-icon" href="#">
+              <i class="fa-solid fa-envelope fa-2x hover-popup"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__copyright">
+        © Свято-Троицкий приход г.Улан-Батор. Все права защищены
+      </div>
     </footer>
     <script src="js/main.min.js"></script>
   </body>
